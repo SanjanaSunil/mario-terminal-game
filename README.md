@@ -1,5 +1,18 @@
 # (Not So Super) Mario Bros. Game
 
+<details><summary>Table of Contents</summary><p>
+
+- [1. Running the game](#running-the-game)
+- [2. Features](#features)
+	- [2.1. Characters](#characters)
+	- [2.2. Levels](#levels)
+    - [2.3. Coins and Powerups](#coins-and-powerups)
+- [3. Controls](#controls)
+- [4. Playing the game](#playing-the-game)
+- [5. Additional features](#additional-features)
+
+</p></details><p></p>
+
 ## Running the game
 
 ```
@@ -7,7 +20,9 @@
     python3 main.py
 ```
 
-## Characters
+## Features
+
+### Characters
 
 * Mario is a stickman generated in the middle of the screen at the start. Mario is allowed to move left, move right and jump. If mario is at the center of the screen, the screen dynamically changes.
 
@@ -15,13 +30,13 @@
 
 * The Boss Enemy is a dragon generated at the end of the game. It has ten lives and Mario has to keep shooting at the enemy to kill it to win the game (the score increments by 10 each time it manages to shoot).
 
-## Levels
+### Levels
 
 * Ground level. The level has platforms that Mario can jump on. It also has holes filled with lava in it that Mario dies if it fall into it. 
 * Water level (NOTE: Mario can walk on water). The water level has more enemies on it than the previous levels and has platforms, but no holes.
 * At the ending, Mario has to defeat the boss enemy. 
 
-## Coins and Powerups
+### Coins and Powerups
 
 * There are coins ($) in the game. Collecting one coin increments the score by one.
 * There are health tokens (+) in the game. Collecting them increases Mario's health by one (with a maximum health limit being 5).
